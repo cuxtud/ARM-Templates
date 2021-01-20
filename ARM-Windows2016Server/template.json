@@ -3,55 +3,71 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "centralus"
         },
         "networkInterfaceName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "dg-arm-windows2016se789"
         },
         "networkSecurityGroupName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "DG-ARM-Windows2016Server-nsg"
         },
         "subnetName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "default"
         },
         "virtualNetworkId": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "/subscriptions/3b6ff759-299c-4a48-bef8-d1e612b57658/resourceGroups/rmg-ops/providers/Microsoft.Network/virtualNetworks/rmg-ops"
         },
         "publicIpAddressName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "DG-ARM-Windows2016Server-ip"
         },
         "publicIpAddressType": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "Static"
         },
         "publicIpAddressSku": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "Standard"
         },
         "virtualMachineName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "DG-ARM-Windows2016Server"
         },
         "virtualMachineComputerName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "DG-ARM-Windows2"
         },
         "virtualMachineRG": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "rmg-ops"
         },
         "osDiskType": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "Premium_LRS"
         },
         "virtualMachineSize": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "Standard_B2s"
         },
         "adminUsername": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "deepti"
         },
         "adminPassword": {
             "type": "secureString"
         },
         "patchMode": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "Manual"
         },
         "zone": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "1"
         }
     },
     "variables": {
